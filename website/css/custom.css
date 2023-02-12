@@ -1,0 +1,14 @@
+a:not([class]) {
+    text-shadow: white 1px 0px 0px, white 0.540302px 0.841471px 0px, white -0.416147px 0.909297px 0px, white -0.989992px 0.14112px 0px, white -0.653644px -0.756802px 0px, white 0.283662px -0.958924px 0px, white 0.96017px -0.279415px 0px;
+    text-decoration: none;
+    background-image: linear-gradient(#1f8dd6 50%, #1f8dd6 50%);
+    background-size: 10000px 1px;
+    color: #1f8dd6;
+    background-repeat: no-repeat;
+    background-position: 0 1em;
+    background-position: -10000px 1em;
+  }
+  a:not([class]):hover {
+    background-position: 0 1em;
+    transition: background-position 2s ease-in-out;
+  }
